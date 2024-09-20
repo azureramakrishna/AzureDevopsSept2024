@@ -1,0 +1,19 @@
+resource_group_name  = "terraform-resource-group"
+location             = "eastus"
+storage_account_name = "terraformsa20240920"
+tags = {
+  project     = "terraform"
+  environment = "Dev"
+  region      = "eastus"
+}
+virtual_network_name    = "terraform-vnet-01"
+virtual_network_address = ["172.16.0.0/24"]
+subnet_name             = "terraform-snet-01"
+subnet_address          = ["172.16.0.0/24"]
+pip_name                = "terraform-pip-01"
+nsg_name                = "terraform-nsg-01"
+nic_name                = "terraform-nic-01"
+vm_name                 = "terraform-vm-01"
+vm_size                 = "Standard_Ds1_v2"
+adminUser               = "azureuser"
+adminPassword           = "Azuredevops@12345"
