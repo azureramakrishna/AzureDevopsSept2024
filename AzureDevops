@@ -1,0 +1,66 @@
+Azure Boards:
+------------
+
+Agile process: 
+
+Iterations / Sprints: duration 2 weeks 
+
+Sprint1   23 Sept - 4 Oct 
+
+    Sprint Planning 
+        - Capacity planning
+        - Backlogs items
+    
+    Daily standup calls (15 min)
+        - What have you done yesterday 
+        - What are you going to work today 
+        - Any blockers 
+    
+    Retrospective
+        - What went well 
+        - What didn't went well 
+        - What can be improved 
+    
+
+Sprint2   7 Oct - 18 Oct
+Sprint3   21 Oct - 1 Nov
+
+
+Epic                            Create website like Amazon.in 
+
+    Feature                         Signup page
+                                    Login page 
+                                    Home page 
+                                    Products page 
+                                    Catelog page 
+                                    Payment gateway 
+                                    order history / Invoice page 
+                                    tracking page 
+                                    Support page 
+
+        Userstory (Backlogs)            Create a signup page for amazon.in
+                                        Create a login page for amazon.in           
+
+            Task                            Create a signup page using google account       - 16hr 
+                                            Create a signup page using apple id             - 8hr
+                                            Create a signup page with username and password - 8hr
+
+                                            Creae a login page using google 
+                                            Create a login page using apple id 
+                                            Create a login page using username and password 
+
+issues                          Create a issue 
+
+
+
+Amazon.in 
+
+Signup page
+Login page 
+Home page 
+Products page 
+Catelog page 
+Payment gateway 
+order history / Invoice page 
+tracking page 
+Support page 
