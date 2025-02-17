@@ -11,13 +11,12 @@ terraform {
     storage_account_name  = "saanvikit"
     container_name        = "tfstate"
     key                   = "terraform.tfstate"
-    use_oidc              = true
+    #use_oidc              = true
   }
 }
 
 provider "azurerm" {
   features {}
-
   use_oidc = true
 }
 
