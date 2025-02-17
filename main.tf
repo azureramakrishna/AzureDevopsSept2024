@@ -34,8 +34,8 @@ resource "azurerm_resource_group" "rg" {
 # create a storage account
 #############################################
 resource "azurerm_storage_account" "sa" {
-  name                     = "${lower(var.storage_account_name)}${count.index + 1}"
-  count                    = var.count_value
+  name                     = "${lower(var.storage_account_name)}"
+  #count                    = var.count_value
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
