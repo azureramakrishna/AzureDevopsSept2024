@@ -15,6 +15,10 @@ variable "storage_account_name" {
 
 variable "tags" {
   type = map(string)
+  default = {
+  project = "saanvikit"
+  environment = "dev"
+}
 }
 
 
