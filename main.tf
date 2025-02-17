@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~>3.0"
+      version = ">= 3.7.0"
     }
   }
 
@@ -11,7 +11,7 @@ terraform {
     storage_account_name  = "saanvikit"
     container_name        = "tfstate"
     key                   = "terraform.tfstate"
-    #use_oidc              = true
+    use_oidc              = true
   }
 }
 
