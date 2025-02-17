@@ -10,7 +10,7 @@ variable "location" {
 
 variable "storage_account_name" {
   type    = string
-  default = "saanvikit"
+  default = "saanvikit123"
 }
 
 variable "tags" {
